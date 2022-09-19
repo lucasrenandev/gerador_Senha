@@ -6,7 +6,7 @@ function generatePassword() {
     let maxLengthCharacters = 16
     let newPassword = "" 
       
-    for(i = 0; i < maxLengthCharacters; i ++) {
+    for(i = 1; i <= maxLengthCharacters; i ++) {
         const randomPassword = Math.floor(Math.random() * characters.length)
         newPassword += characters.charAt(randomPassword, randomPassword + 1)
     }
