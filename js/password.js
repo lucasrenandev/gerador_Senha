@@ -2,8 +2,8 @@ const button = document.getElementById("button")
 button.addEventListener("click", generatePassword)
 
 function generatePassword() {
-    let characters = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&?"
-    let maxLengthCharacters = 16
+    const characters = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&?"
+    const maxLengthCharacters = 16
     let newPassword = "" 
       
     for(i = 1; i <= maxLengthCharacters; i ++) {
