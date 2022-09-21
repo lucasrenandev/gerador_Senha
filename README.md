@@ -1,2 +1,2 @@
 # gerador_Senha
- Gerador de senhas randômicas
+ Gerador de senhas randômicas simples
