@@ -19,7 +19,7 @@ function generatePassword() {
         newPassword += characters.charAt(randomPassword, randomPassword + 1)
     }
     inputPassword.value = newPassword
-    exit.innerHTML = `Sua senha tem <strong>${maxLengthCharacters}</strong> digitos.`
+    exit.innerHTML = `Sua senha tem <mark>${maxLengthCharacters}</mark> digitos.`
 }
 
 // Copiar Senha
