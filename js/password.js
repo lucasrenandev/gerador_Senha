@@ -24,7 +24,7 @@ function generatePassword() {
 
 // Copiar Senha
 function copyPassword() {
-    if(!inputPassword.value || inputPassword !== newPassword) {
+    if(!inputPassword.value || inputPassword.value !== newPassword) {
         window.alert("Gere uma senha para continuar!")
     }
     else {
